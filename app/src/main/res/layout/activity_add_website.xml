@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context="com.project.qrlogin.Login">
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="15dp"
+        android:hint="username"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="15dp"
+        android:hint="Website name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="password"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true" />
+
+
+
+</LinearLayout>
